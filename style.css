@@ -1,0 +1,128 @@
+body {
+    background-color: #F6F8F9;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+
+.container {
+    background-color: white;
+ }
+
+header {
+    padding-left: 20px;
+}
+
+header img {
+    vertical-align: middle;
+}
+
+header h1 {
+    font-size: 40px;
+    vertical-align: middle;
+}
+
+nav {
+     margin-top: 50px;
+     margin-bottom: 2px;
+     padding-top: 15px;
+     padding-bottom: 10px;
+}
+
+main {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+nav, main {
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-left: 50px;
+}
+
+h1, h2 {
+    display: inline-block;
+}
+
+input {
+    width: fit-content;
+    height: 35px;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+#button-1 {
+    color: white;
+    border-color: #47ADF1;
+    background-color: #47ADF1;
+}
+
+#button-2 {
+    color: lightgray;
+    border-color: lightgray;
+    background-color: white;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+ .tick {
+    color: limegreen;
+    width: 15px; 
+    height: 15px;
+    text-align: center;
+    line-height: 20px;
+    padding: 3px;
+    border: 1px solid limegreen;
+    background: transparent;
+    border-radius: 50%;
+  }
+
+  .cross {
+    color: red;
+    width: 15px; 
+    height: 15px;
+    text-align: center;
+    line-height: 20px;
+    padding: 3px;
+    border: 1px solid red;
+    background: transparent;
+    border-radius: 50%;
+  }
+
+  .square {
+    color: white;
+    font-size: 11px;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+main div {
+    margin-bottom: 20px;
+}
+
+.blue {
+    background-color: #46ABEA;
+}
+
+.purple {
+    background-color: #9C72E4;
+}
+
+.turquoise {
+    background-color: #64C0A9;
+}
+
+.orange {
+    background-color: #F29E33;  
+}
+
+.pink {
+    background-color: #D863A1;
+}
+
+.green {
+    background-color: #B0C926;
+}
+
