@@ -1,6 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-color: #F6F8F9;
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
 }
 
@@ -32,6 +38,7 @@ nav {
 main {
     padding-top: 20px;
     padding-bottom: 40px;
+    line-height: 35px;
 }
 
 nav, main {
@@ -43,6 +50,10 @@ nav, main {
 h1, h2 {
     display: inline-block;
 }
+
+ul {
+    list-style-type: none;
+    }
 
 input {
     width: fit-content;
@@ -65,6 +76,8 @@ input {
 
 h2 {
     font-size: 22px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
  .tick {
@@ -91,15 +104,11 @@ h2 {
     border-radius: 50%;
   }
 
-  .square {
+  .rectangle {
     color: white;
     font-size: 11px;
     padding: 8px;
-    border-radius: 10px;
-}
-
-main div {
-    margin-bottom: 20px;
+    border-radius: 20px;
 }
 
 .blue {
